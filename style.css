@@ -87,8 +87,11 @@ body {
 }
 
 #menu-sp {
+  display: block;
   float: right;
   padding: 0;
+  background-color: transparent;
+  border: none;
 }
 
 #nav-sp {
@@ -102,11 +105,11 @@ body {
   z-index: 100;
 }
 
-#nav-spul {
+#nav-sp ul {
   padding-left: 0;
 }
 
-#nav-spli {
+#nav-sp li {
   list-style: none;
 }
 
@@ -114,6 +117,8 @@ body {
   position: absolute;
   top: 20px;
   right: 20px;
+  background-color: transparent;
+  border: none;
 }
 
 #nav-sp nav ul {
@@ -128,7 +133,7 @@ body {
   margin: 80px 0px 30px 20px;
 }
 
-#nav-spa {
+#nav-sp a {
   display: block;
 }
 
